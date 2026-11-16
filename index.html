@@ -7,6 +7,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800&family=Barlow:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="icon" type="image/x-icon" href="favicon.ico">
 <style>
 :root{--bg:#e9e7e3;--sf:#f7f6f3;--ink:#1b1d20;--mute:#5a5f66;--acc:#c2410c;--line:#c4c1bb;--on:#fff;
 --disp:'Barlow Condensed','Arial Narrow','Impact',sans-serif;--body:'Barlow',system-ui,-apple-system,'Segoe UI',sans-serif;
@@ -69,11 +70,24 @@ footer{margin:40px 0 0;background:#17191c;color:#c3c6cb;padding:22px 0 30px;font
 footer strong{font:800 26px var(--disp);text-transform:uppercase;color:#f3f2ef;display:block;margin-bottom:4px}
 @media (max-width:540px){.r{grid-template-columns:48px 1fr}.sx{grid-column:2;grid-row:1;text-align:left;padding:10px 14px 0;font-size:36px;order:-1}.bd{grid-column:2}.ck{grid-row:1 / span 2}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+.brand{display:flex;align-items:center;gap:12px}
+.logo{flex:none;display:block}
 </style>
 </head>
 <body>
 <header><div class="wrap">
-<span class="tag">Fase de inicio · 4 a 6 semanas</span>
+<div class="brand">
+  <svg class="logo" viewBox="0 0 64 64" width="52" height="52" role="img" aria-label="Logo Full Body">
+    <rect width="64" height="64" fill="#23262b"/>
+    <rect x="10" y="29" width="44" height="6" fill="#f3f2ef"/>
+    <rect x="10" y="16" width="7" height="32" fill="#ff7a1a"/>
+    <rect x="19" y="21" width="5" height="22" fill="#ff7a1a"/>
+    <rect x="47" y="16" width="7" height="32" fill="#ff7a1a"/>
+    <rect x="40" y="21" width="5" height="22" fill="#ff7a1a"/>
+    <rect y="57" width="64" height="7" fill="#ff7a1a"/>
+  </svg>
+  <span class="tag">Fase de inicio · 4 a 6 semanas</span>
+</div>
 <h1>Full body</h1>
 <p class="sub">Bajar grasa y ganar músculo desde cero, de lunes a viernes. Cargas ligeras, técnica primero y la rodilla protegida.</p>
 </div></header>
